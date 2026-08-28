@@ -1,151 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Güler Soğutma | Beyaz Eşya Servisi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    <header>
+        <h1>Güler Soğutma</h1>
+        <p>Malatya Battalgazi ve Yeşilyurt</p>
 
-body {
-  font-family: Arial, sans-serif;
-  background: #f5f9fc;
-  color: #1f2937;
-  line-height: 1.6;
-}
+        <a href="tel:05407442344">📞 Hemen Ara</a>
+        <a href="https://wa.me/905407442344">💬 WhatsApp</a>
+    </header>
 
-.container {
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
-}
+    <main>
+        <section>
+            <h2>Hizmetlerimiz</h2>
+            <ul>
+                <li>✔ Buzdolabı Tamiri</li>
+                <li>✔ Çamaşır Makinesi Tamiri</li>
+                <li>✔ Bulaşık Makinesi Tamiri</li>
+                <li>✔ Fırın ve Ankastre Tamiri</li>
+                <li>✔ Klima Bakım ve Onarımı</li>
+            </ul>
+        </section>
 
-header {
-  background: #075985;
-  color: white;
-  text-align: center;
-  padding: 45px 20px;
-}
+        <section>
+            <h2>Neden Bizi Tercih Etmelisiniz?</h2>
+            <p>✓ Aynı Gün Servis</p>
+            <p>✓ Garantili Onarım</p>
+            <p>✓ Deneyimli Teknik Ekip</p>
+            <p>✓ Uygun Fiyat</p>
+        </section>
 
-header h1 {
-  font-size: 42px;
-  margin-bottom: 8px;
-}
+        <section>
+            <h2>İletişim</h2>
+            <p>📞 05407442344</p>
+            <p>📍 Malatya Battalgazi, Yeşilyurt</p>
+        </section>
+    </main>
 
-header p {
-  font-size: 18px;
-}
+    <footer>
+        <p>© 2026 Güler Soğutma</p>
+    </footer>
 
-.buttons {
-  margin-top: 25px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 13px 22px;
-  margin: 5px;
-  background: white;
-  color: #075985;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-}
-
-.whatsapp {
-  background: #16a34a;
-  color: white;
-}
-
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-  background: white;
-}
-
-.hero h2 {
-  font-size: 32px;
-  color: #075985;
-  margin-bottom: 15px;
-}
-
-section {
-  padding: 55px 20px;
-  text-align: center;
-}
-
-section h2 {
-  color: #075985;
-  font-size: 30px;
-  margin-bottom: 30px;
-}
-
-.services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 18px;
-}
-
-.card {
-  background: white;
-  width: 190px;
-  padding: 25px 15px;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-}
-
-.card h3 {
-  margin-top: 12px;
-  font-size: 18px;
-}
-
-.why {
-  background: #e0f2fe;
-}
-
-.why p {
-  margin: 10px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.contact {
-  background: white;
-}
-
-.contact p {
-  font-size: 18px;
-  margin: 8px;
-}
-
-.contact .btn {
-  background: #075985;
-  color: white;
-  margin-top: 20px;
-}
-
-footer {
-  background: #0c4a6e;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
-}
-
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 32px;
-  }
-
-  .hero h2 {
-    font-size: 26px;
-  }
-
-  .card {
-    width: 100%;
-    max-width: 300px;
-  }
-
-  .btn {
-    display: block;
-    margin: 10px auto;
-    max-width: 280px;
-  }
-}
+</body>
+</html>

@@ -1,51 +1,96 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Güler Soğutma | Beyaz Eşya Servisi</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-    <header>
-        <h1>Güler Soğutma</h1>
-        <p>Malatya Battalgazi ve Yeşilyurt</p>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fa;
+    color: #222;
+    line-height: 1.6;
+}
 
-        <a href="tel:05407442344">📞 Hemen Ara</a>
-        <a href="https://wa.me/905407442344">💬 WhatsApp</a>
-    </header>
+header {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
 
-    <main>
-        <section>
-            <h2>Hizmetlerimiz</h2>
-            <ul>
-                <li>✔ Buzdolabı Tamiri</li>
-                <li>✔ Çamaşır Makinesi Tamiri</li>
-                <li>✔ Bulaşık Makinesi Tamiri</li>
-                <li>✔ Fırın ve Ankastre Tamiri</li>
-                <li>✔ Klima Bakım ve Onarımı</li>
-            </ul>
-        </section>
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
 
-        <section>
-            <h2>Neden Bizi Tercih Etmelisiniz?</h2>
-            <p>✓ Aynı Gün Servis</p>
-            <p>✓ Garantili Onarım</p>
-            <p>✓ Deneyimli Teknik Ekip</p>
-            <p>✓ Uygun Fiyat</p>
-        </section>
+header p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
 
-        <section>
-            <h2>İletişim</h2>
-            <p>📞 05407442344</p>
-            <p>📍 Malatya Battalgazi, Yeşilyurt</p>
-        </section>
-    </main>
+a {
+    display: inline-block;
+    text-decoration: none;
+    background: white;
+    color: #0d6efd;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+}
 
-    <footer>
-        <p>© 2026 Güler Soğutma</p>
-    </footer>
+a:hover {
+    opacity: 0.85;
+}
 
-</body>
-</html>
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #0d6efd;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 8px 0;
+}
+
+section p {
+    margin: 8px 0;
+}
+
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    header {
+        padding: 35px 15px;
+    }
+
+    main {
+        padding: 0 12px;
+    }
+}
